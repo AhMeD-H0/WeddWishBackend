@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_wishlist_items",
+  "info": {
+    "displayName": "item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "url": {
+      "type": "text"
+    },
+    "image": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
