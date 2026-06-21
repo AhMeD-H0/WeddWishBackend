@@ -899,8 +899,10 @@ export interface PluginUsersPermissionsUser
       Schema.Attribute.SetMinMaxLength<{
         minLength: 6;
       }>;
+    info: Schema.Attribute.Text;
     instaPayNumber: Schema.Attribute.BigInteger;
     instaPayNumberPending: Schema.Attribute.String;
+    instaPayProfileLink: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

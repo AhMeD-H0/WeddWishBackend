@@ -80,6 +80,12 @@
     },
     "instaPayNumberPending": {
       "type": "string"
+    },
+    "instaPayProfileLink": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
     }
   }
 }
